@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="assets/Bootstrap5/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calculadora Js</title>
+</head>
+<body onload="asignarEventos()">
+    <h1>Calculadora</h1>
+    <main class="calculadora">
+        <div class="pantalla">
+            <input id="pantallaResultado" type="text" value="0" disabled>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="operadores" id="suma">+</button>
+                <button class="operadore">%</button>
+                <button class="numeros" id="boton7">7</button>
+                <button class="numeros" id="boton4">4</button>
+                <button class="numeros" id="boton1">1</button>
+                <button class="numeros" id="boton0">0</button>
+            </div>
+            <div class="col">
+                <button class="operadores" id="resta">-</button>
+                <button class="operadore">&larr;</button>
+                <button class="numeros" id="boton8">8</button>
+                <button class="numeros" id="boton5">5</button>
+                <button class="numeros" id="boton2">2</button>
+                <button class="punto">.</button> 
+            </div>
+            <div class="col">
+                <button class="operadores" id="multiplicacion">x</button>
+                <button class="operadore">&radic;</button>
+                <button class="numeros" id="boton9">9</button>
+                <button class="numeros" id="boton6">6</button>
+                <button class="numeros" id="boton3">3</button>
+                <button class="operadore" id="ac">AC</button> 
+            </div>
+            <div class="col">
+                <button class="operadores" id="division">&divide;</button>
+                <button class="operador" id="igual">=</button> 
+
+            </div>
+        </div>
+    </main> 
+</body>
+<script src="assets/js/script.js"></script>
+</html>
