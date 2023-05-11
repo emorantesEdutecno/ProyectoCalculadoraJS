@@ -2,7 +2,7 @@
 var operacion = '';
 var numero1 = 0;
 var numero2 = 0;
-var resutado = 0;
+var resultado = 0;
 var banderaNuevoValor = false;
 
 
